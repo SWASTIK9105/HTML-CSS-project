@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="logo">
+                    <a href="#"><img src="logo-new.png" alt="Spotify Logo"></a>
+                </div>
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="Library Icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+                <div class="privacy">
+                    <ul>
+                        <li>
+                            <a href="#">Legal</a>
+                            <a href="#">Safety & Privacy</a>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                            <a href="#">About Ads</a>
+                            <a href="#">Accessibility</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="eng-btn">
+                    <button><i class="fa-solid fa-globe"></i> English</button>
+                </div>           </div>
+                <div class="divider"></div>
+ 
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png" style="opacity: 1;">
+                    <img src="forward_icon.png" class="hide" style="opacity: 0.7;">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="item">
+                        <img src="card4img.jpeg" class="card-img" alt="Naa Ready">
+                        <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    </div>
+                    <p class="card-title">Naa Ready (From "Leo")</p>
+                    <p class="card-info">Anirudh Ravichander ,Thalapathy Vijay,Asal...</p>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <h2>Spotify Playlists</h2>
+                <div class="list">
+                    <div class="item">
+                        <img src="card1img.jpeg" alt="Today's Top Hits">
+                        <div class="play"><span class="fa fa-play"></span></div>
+                        <h4> Top 50 Hits</h4>
+                        <p>Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+           </div>
+           
+            <h2>Trending now near you</h2>
+        
+   <div class="card-container">
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Mahiya Jinna Sohna</p>
+                    <p class="card-info">Darsan Reval</p>
+                </div>
+        
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Mere PAAS TUM</p>
+                    <p class="card-info">Lofi Mix - 5 Min Music </p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Weekly Music Charts</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Weekly Music Charts</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="item-1.jpg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Lofi Beats</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="item-2.jpg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Today's top hits</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="item-3.jpg"class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Chillout Lounge</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="item-4.jpg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">All Out 2020s</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="item-5.jpg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">Jazz in the Background</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+            </div>
+            <div class="card">
+                <img src="item-6.jpg" class="card-img" alt="Top 50 - Global">
+                <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                <p class="card-title">Animal</p>
+                <p class="card-info">Arijit singh, jaani...</p></div>
+                <div class="card">
+                    <img src="item-7.jpg" class="card-img" alt="Top 50 - Global">
+                    <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                    <p class="card-title">All Out 2020s</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p></div>
+                    <div class="card">
+                        <img src="item-8.jpg" class="card-img" alt="Top 50 - Global">
+                        <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                        <p class="card-title">HUSN</p>
+                        <p class="card-info">Anuv Jain</p></div>
+                        <div class="card">
+                            <img src="item-9.jpg" class="card-img" alt="Top 50 - Global">
+                            <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                            <p class="card-title">Moose Tape</p>
+                            <p class="card-info">Siddhu Moosewala</p></div>
+                            <div class="card">
+                                <img src="item-10.jpg" class="card-img" alt="Top 50 - Global">
+                                <div class="btnp"><i class="fa-solid fa-play"></i></div>
+                                <p class="card-title">Satranga From("Animal")</p>
+                                <p class="card-info">Arijit Singh, Shreyas Puranik,Siddharth-Garima</p></div>
+            </div>
+            <div class="footer-section">
+                <div class="footer">
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <div>Company</div>
+                            <ul class="col-links">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <div>Communities</div>
+                            <ul class="col-links">
+                                <li><a href="#">For Artists</a></li>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <div>Useful links</div>
+                            <ul class="col-links">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <div>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; 2024 Spotify made by SWASTIK TRIPATHI</p>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <div class="preview">
+            <div class="text">
+                <h3>Preview of Spotify Premium</h3>
+                <p>Sign up to get unlimited songs and podcasts ads free</p>
+            </div>
+            <div class="button">
+                <button>Explore Premium</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
